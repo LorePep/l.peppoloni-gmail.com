@@ -3,6 +3,7 @@ project(visual-tracker)
 
 set(CMAKE_CXX_STANDARD 11)
 find_package(OpenCV REQUIRED)
+find_package(dlib REQUIRED)
 
 # ------------------------------------------------------------------------------
 # SECTION: Google Test (gtest) unit testing framework
