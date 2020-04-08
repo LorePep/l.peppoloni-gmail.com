@@ -2,6 +2,8 @@ cmake_minimum_required (VERSION 3.15)
 project(visual-tracker)
 
 set(CMAKE_CXX_STANDARD 11)
+find_package(OpenCV REQUIRED)
+
 # ------------------------------------------------------------------------------
 # SECTION: Google Test (gtest) unit testing framework
 # ------------------------------------------------------------------------------
